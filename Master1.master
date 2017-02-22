@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master1.master.cs" Inherits="MasterPage" %>
 
 <!DOCTYPE html>
 
@@ -54,7 +54,7 @@
                         first one". Before launch, however, Jess Cliffe advised DaveJ to
                         change the map's name to a far more sensible Dust 2.
                     </p>
-                    <a class="button" href="Dust2.html">Go To Map ></a>
+                    <a class="button" href="Dust2.aspx">Go To Map ></a>
                 </div>
             </div>
             <img id="testImg" src="Photo/INFERNOa.jpg" alt="test" />
