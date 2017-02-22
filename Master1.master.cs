@@ -11,8 +11,5 @@ public partial class MasterPage : System.Web.UI.MasterPage
     {
 
     }
-    protected void LinkButton1_Click(Object sender, EventArgs e)
-    {
-        Session["masterpage"] = "Master1.master"; Response.Redirect(Request.Url.ToString());
-    }
+    
 }
