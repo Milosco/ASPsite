@@ -1,10 +1,10 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master1.master.cs" Inherits="MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainPage.master.cs" Inherits="MainPage" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Main Page</title>
+    <title></title>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href="StyleSheet.css" rel="stylesheet" />
@@ -83,7 +83,7 @@
                         first one". Before launch, however, Jess Cliffe advised DaveJ to
                         change the map's name to a far more sensible Dust 2.
                     </p>
-                    <a class="button" href="Inferno.html">Go To Map ></a>
+                    <a class="button" href="Deafault.aspx">Go To Map ></a>
                 </div>    
             </div>
             <img id="mirageImg" src="Photo/MIRAGEa.jpg" alt="test" />
@@ -200,7 +200,6 @@
             <img id="csLogo" src="Photo/CSGOlogo.png" alt="LOGO" />
             <p id="footertext">Created by: The "We Are Number One" group</p>
         </div>
-        
     </form>
 </body>
 </html>
