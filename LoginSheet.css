@@ -1,6 +1,7 @@
 ﻿html, body {
     margin:0;
     padding:0;
+    font-family:Arial;
 }
 body{
     background-color: #c5c1c2; 
@@ -27,6 +28,7 @@ body{
     bottom: 0;
     position: relative;
     color:white;
+    border-top: 1px solid #982c2c;
 }
 #container{
     width: 60%;
@@ -38,52 +40,6 @@ body{
     padding-top: 50px;
     padding-bottom:5px;
 }
-
-#testImg, #dustImg, #mirageImg, #cacheImg, #overpassImg, #cbblImg{
-    margin-top:.5%;
-    width:80%;
-    margin-right: 10%;
-    margin-left: 10%;
-}
-#testP h3, #dustP h3, #mirageP h3, #cacheP h3, #overpassP h3, #cbblP h3{
-    text-align:center;
-    font-family: Arial, Verdana;
-}
-#testP p, #dustP p, #mirageP p, #cacheP p, #overpassP p, #cbblP p{
-    padding-left:1%;
-    padding-right:1%;
-    font-family: Arial, Verdana;
-    font-size: 15px;
-}
-
-#storyBox, #DustBox, #MirageBox, #CacheBox, #OverpassBox, #CbblBox{
-    background-color: #b63434;
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
-    height: 100%;
-    padding-top: 1px;
-    color: white;
-}
-#csLogo{
-    width:20%;
-    margin-right:40%;
-    margin-left:40%;
-    
-}
-#footertext{
-    color: white;
-    text-align:center;
-    font-family: Arial;
-}
-
-/*.button {
-     background-color: #000;
-     border: 0;
-     color: #fff;
-     padding: 10px 20px; 
-     
-}*/
 a.button{
     background-color:rgba(0, 0, 0, 0.00);
     color:#fff;
@@ -106,13 +62,59 @@ a.button{
 a {
     text-decoration: none;
 }
-
-#dustP a{
-    position:center;
+#csLogo{
+    width:20%;
+    margin-right:40%;
+    margin-left:40%;
+    
 }
-p,a,html,body{
+#footertext{
+    color: white;
+    text-align:center;
     font-family: Arial;
 }
-#Login{
-    float: right;
+.contant {
+    color:white;
+    width: 80%;
+    background: #b63434;
+    margin-left: 10%;
+    
+}
+.contant{
+    
+}
+
+.contant h2{
+    text-align: center;
+    padding-top: 1em;
+    margin-top: 1%;
+    
+}
+button{
+    width: 50%;
+    border:none;
+    background:#982c2c;
+    height:50px;
+    margin-left: 25%;
+    font-size:16px;
+    color: white;
+    margin-bottom:5%;
+}
+button:hover{
+    background:#201f24;
+}
+input[type=password], input[type=email], input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+#wrapper {
+    color: white;
+    width: 80%;
+    background: #b63434;
+    margin-left: 10%;
 }
