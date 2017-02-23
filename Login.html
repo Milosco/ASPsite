@@ -15,7 +15,7 @@
         <div id="wrapper">
             <div class="contant">
                 <h2> Register</h2>
-                <form action="/action_page.php">
+                <form action="/sign-in.php">
                     <label>Username</label>
                     <input type="text" placeholder="Enter Username" name="usr" required />
                     <label>Email</label>
@@ -26,36 +26,18 @@
                     <input type="password" placeholder="Enter Password" name="psw" required />
                     <label>Confirm</label>
                     <input type="password" placeholder="Confirm Password" name="cpsw" required />
-                    <select id="Select1">
-                        <option>No Your Rank</option>
-                        <option>silver 1</option>
-                        <option>Silver 2</option>
-                        <option>Silver 3</option>
-                        <option>Silver 4</option>
-                        <option>Silver Elite</option>
-                        <option>Silver Master</option>
-                        <option>Gold Nove 1</option>
-                        <option>Gold Nove 2</option>
-                        <option>Gold Nove 3</option>
-                        <option>Gold Nove 4</option>
-                        <option>MG 1</option>
-                        <option>MG 2</option>
-                        <option>MGE</option>
-                        <option>DMG</option>
-                        <option>LE</option>
-                        <option>LEM</option>
-                        <option>Supreme</option>
-                        <option>Golabal Elite</option>
-                    </select>
                     <button type="submit">Register</button>
                 </form>
-                
-                <h2>Login</h2>
-                <label>Username</label>
-                <input type="text" placeholder="Enter Username" name="usr" required />
-                <label>Password</label>
-                <input type="password" placeholder="Enter Password" name="psw" required />
-                <button type="submit">Login</button>
+                <hr />
+                <form action="/login.php">
+                    <h2>Login</h2>
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter Username" name="usr" required />
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Password" name="psw" required />
+                    <button type="submit">Login</button>
+                </form>
+
             </div>
         </div>
     </div>
