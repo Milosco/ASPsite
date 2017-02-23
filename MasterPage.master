@@ -19,7 +19,7 @@
             <asp:LinkButton class="button" href="#aSmokes" runat="server">A Smokes</asp:LinkButton>
             <asp:LinkButton class="button" href="#midSmokes" runat="server">Mid Smokes</asp:LinkButton>
             <asp:LinkButton class="button" href="#bSmokes" runat="server">B Smokes</asp:LinkButton>
-            <a id="login" href="login.html">Login/Register</a>
+            <a id="Login" class="button" href="Login.html">Login/Register</a>
         </div>    
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
