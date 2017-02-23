@@ -17,6 +17,8 @@ body{
     width: 100%;
     height: auto;
     position:fixed;
+    border-bottom: 1px solid #982c2c;
+    border-top: 1px solid #982c2c;
 }
 #footer{
     width:100%;
@@ -100,11 +102,12 @@ a {
 /* Dropdown Button */
 .dropbtn {
     background-color:rgba(0, 0, 0, 0.00);
+    
     color:#fff;
     margin:0 auto;
     display:inline-block;
-    padding-bottom:15px;
-    padding-top:15px;
+    padding-bottom:16px;
+    padding-top:16px;
     font-family: Arial;
     width: 120px;
     text-align:center;

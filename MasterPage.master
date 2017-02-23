@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Maps</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Maps.css" rel="stylesheet" />
+    
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="header">
+            <asp:LinkButton class="button" href="MainPage.html" runat="server">Home</asp:LinkButton>
+            <asp:LinkButton class="button" href="#aSmokes" runat="server">A Smokes</asp:LinkButton>
+            <asp:LinkButton class="button" href="#midSmokes" runat="server">Mid Smokes</asp:LinkButton>
+            <asp:LinkButton class="button" href="#bSmokes" runat="server">B Smokes</asp:LinkButton>
+        </div>    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <!--FOOTER-->
+    <div id="footer">
+        <img id="csLogo" src="Photo/CSGOlogo.png" alt="LOGO" />
+        <p id="footertext">Footer Text</p>
+    </div>
+
+    </div>
+    </form>
+</body>
+</html>
