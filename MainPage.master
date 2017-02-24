@@ -14,8 +14,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="up"></div>
-        <a id="goup"  href="#up">  <img id="goupimage" src="http://www.clipartbest.com/cliparts/aiq/6ek/aiq6ekbAT.png"/></a>
+        <%--<div id="up"></div>
+        <a id="goup"  href="#up">  <img id="goupimage" src="http://www.clipartbest.com/cliparts/aiq/6ek/aiq6ekbAT.png"/></a>--%>
         <div>
             <!--HEADER-->
             <div id="header">

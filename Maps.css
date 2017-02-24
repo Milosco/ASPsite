@@ -41,8 +41,7 @@ body{
 
 #csLogo{
     width:15%;
-    margin-right:40%;
-    margin-left:40%;
+    margin-left:42.5%;
     
 }
 #footertext{
@@ -136,11 +135,14 @@ a {
     color: white;
 }
 
-#goup {
+/*#goup {
     position: fixed;
     top: 90%;
     right:2%;
 }
 #goupimage{
     height:75px;
+}*/
+#Login{
+    margin-left: 50px;
 }
