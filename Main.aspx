@@ -84,7 +84,7 @@
                 <asp:LinkButton href="Overpass.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
             </div>
         </div>
-        <img id="cbblImg" src="Photo/#placeholder.jpg" alt="test" />
+        <img id="cbblImg" src="Photo/CSGO_Cobblestone.jpg" alt="test" />
         <div id="CbblBox">
             <div id="cbblP">
                 <h3>Overview</h3>
