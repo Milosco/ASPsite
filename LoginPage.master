@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="LoginPage.master.cs" Inherits="LoginPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Login</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Maps.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="header">
+            <asp:LinkButton class="button" id="home" href="Main.aspx" runat="server">Home</asp:LinkButton>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div id="footer">
+            <img id="csLogo" src="Photo/CSGOlogo.png" alt="LOGO" />
+            <p id="footertext">Created by: The "We Are Number One" group</p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
