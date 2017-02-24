@@ -20,7 +20,7 @@
         </asp:ContentPlaceHolder>
         <div id="footer">
             <img id="csLogo" src="Photo/CSGOlogo.png" alt="LOGO" />
-            <p id="footertext">Created by: The "We Are Number One" group</p>
+            <p id="footertext">Created by: The "We Are Number One"</p>
         </div>
     </div>
     </form>
