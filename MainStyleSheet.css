@@ -77,13 +77,7 @@ body{
     font-family: Arial;
 }
 
-/*.button {
-     background-color: #000;
-     border: 0;
-     color: #fff;
-     padding: 10px 20px; 
-     
-}*/
+
 a.button{
     background-color:rgba(0, 0, 0, 0.00);
     color:#fff;

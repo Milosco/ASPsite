@@ -15,11 +15,11 @@
     <form id="form1" runat="server">
     <div>
         <div id="header">
-            <asp:LinkButton class="button" href="MainPage.html" runat="server">Home</asp:LinkButton>
+            <asp:LinkButton class="button" href="MainPage.aspx" runat="server">Home</asp:LinkButton>
             <asp:LinkButton class="button" href="#aSmokes" runat="server">A Smokes</asp:LinkButton>
             <asp:LinkButton class="button" href="#midSmokes" runat="server">Mid Smokes</asp:LinkButton>
             <asp:LinkButton class="button" href="#bSmokes" runat="server">B Smokes</asp:LinkButton>
-            <a id="Login" class="button" href="Login.html">Login/Register</a>
+            <asp:LinkButton href="#login" id="Login" class="button" runat="server">Login/Register</asp:LinkButton>
         </div>    
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         

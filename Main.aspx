@@ -1,23 +1,10 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title>Main Page</title>
-	<meta charset="utf-8" />
-    <link href="MainStyleSheet.css" rel="stylesheet" />
+﻿<%@ Page Title="Main Page" Language="C#" MasterPageFile="~/MainPage.master" AutoEventWireup="true" CodeFile="Main.aspx.cs" Inherits="_Default" %>
 
-</head>
-<body>
-    <!--HEADER-->
-    <div id="header">
-        <a class="button" href="#dustImg">Dust 2</a>
-        <a class="button" href="#testImg">Inferno</a>
-        <a class="button" href="#mirageImg">Mirage</a>
-        <a class="button" href="#cacheImg">Cache</a>
-        <a class="button" href="#overpassImg">Overpass</a>
-        <a class="button" href="#cbblImg">Cobblestone</a>
-        <a id="Login" class="button" href="Login.html">Login/Register</a>
-
-    </div>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+   
     <!--CONTAINER-->
     <div id="container">
         <img id="dustImg" src="Photo/DUST2long.jpg" alt="test" />
@@ -46,7 +33,7 @@
                     first one". Before launch, however, Jess Cliffe advised DaveJ to
                     change the map's name to a far more sensible Dust 2.
                 </p>
-                <a class="button" href="Dust2.aspx">Go To Map ></a>
+                <asp:LinkButton href="Dust2.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
             </div>
         </div>
         <img id="testImg" src="Photo/INFERNOa.jpg" alt="test" />
@@ -58,7 +45,7 @@
                 <h3>Development</h3>
                 <p>
                 </p>
-                <a class="button" href="Inferno.aspx">Go To Map ></a>
+                <asp:LinkButton href="Inferno.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
             </div>
         </div>
         <img id="mirageImg" src="Photo/MIRAGEa.jpg" alt="test" />
@@ -70,7 +57,7 @@
                 <h3>Development</h3>
                 <p>
                 </p>
-                <a class="button" href="Mirage.aspx">Go To Map ></a>
+                <asp:LinkButton href="Mirage.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
             </div>
         </div>
         <img id="cacheImg" src="Photo/cache.jpg" alt="test" />
@@ -82,7 +69,7 @@
                 <h3>Development</h3>
                 <p> 
                 </p>
-                <a class="button" href="Cache.aspx">Go To Map ></a>
+                <asp:LinkButton href="Cache.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
             </div>
         </div>
         <img id="overpassImg" src="Photo/overpass.jpg" alt="test" />
@@ -94,7 +81,7 @@
                 <h3>Development</h3>
                 <p>
                 </p>
-                <a class="button" href="Overpass.aspx">Go To Map ></a>
+                <asp:LinkButton href="Overpass.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
             </div>
         </div>
         <img id="cbblImg" src="Photo/#placeholder.jpg" alt="test" />
@@ -106,14 +93,9 @@
                 <h3>Development</h3>
                 <p>
                 </p>
-                <a class="button" href="Cbbl.aspx">Go To Map ></a>
+                <asp:LinkButton href="Cbbl.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
             </div>
         </div>
     </div>
-    <!--FOOTER-->
-    <div id="footer">
-        <img id="csLogo" src="Photo/CSGOlogo.png" alt="LOGO" />
-        <p id="footertext">Created by: The "We Are Number One" group</p>
-    </div>
-</body>
-</html>
+</asp:Content>
+
