@@ -30,7 +30,8 @@ body{
 }
 #container{
     width: 60%;
-    height:/*100%*/ 1100px;
+    min-height:760px;
+    height:100%;
     background-color: #201f24;
     margin-left: auto;
     margin-right: auto;
@@ -135,11 +136,48 @@ a {
     color: white;
 }
 
-/*#goup {
-    position: fixed;
-    top: 90%;
-    right:2%;
+input[type=password], input[type=email], input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
 }
-#goupimage{
-    height:75px;
-}*/
+#wrapper {
+    color: white;
+    width: 80%;
+    background: #b63434;
+    margin-left: 10%;
+}
+.contant {
+    color:white;
+    width: 80%;
+    background: #b63434;
+    margin-left: 10%;
+    
+}
+.contant{
+    
+}
+
+.contant h2{
+    text-align: center;
+    padding-top: 1em;
+    margin-top: 1%;
+    
+}
+button{
+    width: 50%;
+    border:none;
+    background:#982c2c;
+    height:50px;
+    margin-left: 25%;
+    font-size:16px;
+    color: white;
+    margin-bottom:5%;
+}
+button:hover{
+    background:#201f24;
+}

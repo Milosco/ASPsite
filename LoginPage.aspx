@@ -1,9 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/LoginPage.master" AutoEventWireup="true" CodeFile="LoginPage.aspx.cs" Inherits="LoginPage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<link type="text/css" href="LoginSheet.css" rel="stylesheet" />
+<%--<link type="text/css" href="LoginSheet.css" rel="stylesheet" />--%>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
+    <asp:LinkButton Text="Home" href="Main.aspx" class="button" runat="server" />
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div id="container">
         <div id="wrapper">
             <div class="contant">
@@ -30,11 +33,6 @@
             </div>
         </div>
     </div>
-    <div id="footer">
-        <img id="csLogo" src="Photo/CSGOlogo.png" alt="LOGO" />
-        <p id="footertext">Created by: The "We Are Number One" group</p>
-    </div>
-
-
+    
 </asp:Content>
 

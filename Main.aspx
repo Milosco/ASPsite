@@ -1,9 +1,18 @@
-﻿<%@ Page Title="Main Page" Language="C#" MasterPageFile="~/MainPage.master" AutoEventWireup="true" CodeFile="Main.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="Main Page" Language="C#" MasterPageFile="~/LoginPage.master" AutoEventWireup="true" CodeFile="Main.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderId="ContentPlaceHolder2" Runat="Server">
+    <asp:LinkButton href="#dustImg" class="button" runat="server">Dust 2</asp:LinkButton>
+    <asp:LinkButton href="#testImg" class="button" runat="server">Inferno</asp:LinkButton>
+    <asp:LinkButton href="#mirageImg" class="button" runat="server">Mirage</asp:LinkButton>
+    <asp:LinkButton href="#cacheImg" class="button" runat="server">Cache</asp:LinkButton>
+    <asp:LinkButton href="#overpassImg" class="button" runat="server">Overpass</asp:LinkButton>
+    <asp:LinkButton href="#cbblImg" class="button" runat="server">Cobblestone</asp:LinkButton>
+    <asp:LinkButton href="LoginPage.aspx" ID="Login" class="button" runat="server">Login/Register</asp:LinkButton>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
    
     <!--CONTAINER-->
     <div id="container">
