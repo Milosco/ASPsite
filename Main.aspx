@@ -10,7 +10,7 @@
     <asp:LinkButton href="#cacheImg" class="button" runat="server">Cache</asp:LinkButton>
     <asp:LinkButton href="#overpassImg" class="button" runat="server">Overpass</asp:LinkButton>
     <asp:LinkButton href="#cbblImg" class="button" runat="server">Cobblestone</asp:LinkButton>
-    <asp:LinkButton href="LoginPage.aspx" ID="Login" class="button" runat="server">Login/Register</asp:LinkButton>
+    <asp:LinkButton href="LoginPage.aspx" id="Login" class="button" runat="server">Login/Register</asp:LinkButton>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
    

@@ -181,3 +181,26 @@ button{
 button:hover{
     background:#201f24;
 }
+
+
+.btnBox {
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 1%;
+}
+.btnBox .button{
+    background:#b63434;
+
+}
+.Smoke{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    
+
+}
+.Smoke img{
+    width:100%;
+    margin-top: 5%;
+}
