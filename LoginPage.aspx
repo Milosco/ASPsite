@@ -11,6 +11,7 @@
         <div id="wrapper">
             <div class="contant">
                 <h2> Register</h2>
+                
                     <label>Username</label>
                     <input id="userbox" runat="server" type="text" placeholder="Enter Username" name="usr"/>
                     <label>Email</label>

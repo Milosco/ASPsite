@@ -42,7 +42,7 @@
                     first one". Before launch, however, Jess Cliffe advised DaveJ to
                     change the map's name to a far more sensible Dust 2.
                 </p>
-                <asp:LinkButton href="Dust2.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
+                
             </div>
         </div>
         <img id="testImg" src="Photo/INFERNOa.jpg" alt="test" />
@@ -54,7 +54,7 @@
                 <h3>Development</h3>
                 <p>
                 </p>
-                <asp:LinkButton href="Inferno.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
+                
             </div>
         </div>
         <img id="mirageImg" src="Photo/MIRAGEa.jpg" alt="test" />
@@ -66,7 +66,7 @@
                 <h3>Development</h3>
                 <p>
                 </p>
-                <asp:LinkButton href="Mirage.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
+                
             </div>
         </div>
         <img id="cacheImg" src="Photo/cache.jpg" alt="test" />
@@ -78,7 +78,7 @@
                 <h3>Development</h3>
                 <p> 
                 </p>
-                <asp:LinkButton href="Cache.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
+                
             </div>
         </div>
         <img id="overpassImg" src="Photo/overpass.jpg" alt="test" />
@@ -90,7 +90,7 @@
                 <h3>Development</h3>
                 <p>
                 </p>
-                <asp:LinkButton href="Overpass.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
+                
             </div>
         </div>
         <img id="cbblImg" src="Photo/CSGO_Cobblestone.jpg" alt="test" />
@@ -102,7 +102,7 @@
                 <h3>Development</h3>
                 <p>
                 </p>
-                <asp:LinkButton href="Cbbl.aspx" class="button" runat="server" >Go to map ></asp:LinkButton>
+                
             </div>
         </div>
     </div>
