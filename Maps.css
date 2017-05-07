@@ -109,28 +109,29 @@ a {
     padding-bottom:5px;
 }
 
-#testImg, #dustImg, #mirageImg, #cacheImg, #overpassImg, #cbblImg{
+#dustImg{
     margin-top:.5%;
-    width:80%;
-    margin-right: 10%;
-    margin-left: 10%;
+    width:70%;
+    margin-right: 15%;
+    margin-left: 15%;
 }
-#testP h3, #dustP h3, #mirageP h3, #cacheP h3, #overpassP h3, #cbblP h3{
+#dustP h3{
     text-align:center;
     font-family: Arial, Verdana;
 }
-#testP p, #dustP p, #mirageP p, #cacheP p, #overpassP p, #cbblP p{
+#dustP p{
     padding-left:1%;
     padding-right:1%;
     font-family: Arial, Verdana;
     font-size: 15px;
 }
 
-#storyBox, #DustBox, #MirageBox, #CacheBox, #OverpassBox, #CbblBox {
+#DustBox{
     background-color: #b63434;
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
+    
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
     height: 100%;
     padding-top: 1px;
     color: white;
@@ -143,6 +144,7 @@ input[type=password], input[type=email], input[type=text]{
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+     
     
 }
 #wrapper {
